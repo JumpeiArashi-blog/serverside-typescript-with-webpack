@@ -1,0 +1,19 @@
+{
+  "name": "serverside-typescript-with-webpack",
+  "version": "0.1.0",
+  "description": "typescript + webpack in server side",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JumpeiArashi-blog/serverside-typescript-with-webpack.git"
+  },
+  "author": "JumpeiArashi",
+  "license": "WTPFL",
+  "bugs": {
+    "url": "https://github.com/JumpeiArashi-blog/serverside-typescript-with-webpack/issues"
+  },
+  "homepage": "https://github.com/JumpeiArashi-blog/serverside-typescript-with-webpack#readme"
+}
