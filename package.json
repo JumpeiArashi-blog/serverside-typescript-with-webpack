@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JumpeiArashi-blog/serverside-typescript-with-webpack/issues"
   },
-  "homepage": "https://github.com/JumpeiArashi-blog/serverside-typescript-with-webpack#readme"
+  "homepage": "https://github.com/JumpeiArashi-blog/serverside-typescript-with-webpack#readme",
+  "devDependencies": {
+    "webpack": "^1.12.15"
+  }
 }
