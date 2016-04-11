@@ -1,9 +1,9 @@
 'use strict';
 
-const Nightmare = require('nightmare');
+import Nightmare = require('nightmare');
 
-class HtmlContent {
-  constructor(url) {
+default export class HtmlContent {
+  constructor(public url:string) {
     this.url = url;
   }
 
@@ -12,7 +12,7 @@ class HtmlContent {
       .goto(this.url)
       .wait(5000)
       .evaluate(() => {
-        return document.querySeoector('body').innerHTML;
+        return document.querySelector('body').innerHTML;
       })
       .end()
       .then((result) => {
@@ -20,5 +20,3 @@ class HtmlContent {
       });
   }
 }
-
-module.exports = HtmlContent;

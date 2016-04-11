@@ -6,13 +6,19 @@ module.exports = {
   target: 'node',
   externals: /^(?!^\.\/)/,
   context: path.join(__dirname, 'src'),
-  entry: './index.js',
+  entry: './index.ts',
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'index.js',
     libraryTarget: 'commonjs2'
   },
   resolve: {
-    extensions: ['', '.js']
+    extensions: ['', '.ts', '.js']
+  },
+  module: {
+    loaders: [{
+      test: /\.ts$/,
+      loader: 'ts-loader'
+    }]
   }
 };
