@@ -2,6 +2,6 @@
 
 import Scraper = require('./models/scraper');
 
-default export module server {
+export module server {
   Scraper: Scraper
 }

@@ -2,7 +2,7 @@
 
 import Nightmare = require('nightmare');
 
-default export class HtmlContent {
+export class HtmlContent {
   constructor(public url:string) {
     this.url = url;
   }
