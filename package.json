@@ -18,5 +18,8 @@
   "homepage": "https://github.com/JumpeiArashi-blog/serverside-typescript-with-webpack#readme",
   "devDependencies": {
     "webpack": "^1.12.15"
+  },
+  "dependencies": {
+    "nightmare": "^2.3.0"
   }
 }

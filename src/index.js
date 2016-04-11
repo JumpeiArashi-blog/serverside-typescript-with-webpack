@@ -1,5 +1,7 @@
-function doSomething(str) {
-  console.log(src);
-}
+'use strict';
 
-module.exports = doSomething;
+const Scraper = require('./models/scraper');
+
+module.exports = {
+  Scraper: Scraper
+};
