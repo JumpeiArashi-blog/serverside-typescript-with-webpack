@@ -1,8 +1,10 @@
 {
   "name": "serverside-typescript-with-webpack",
   "version": false,
-  "dependencies": {},
-  "ambientDependencies": {
-    "nightmare": "registry:dt/nightmare#1.6.5+20160317120654"
+  "dependencies": {
+    "nightmare": "registry:npm/nightmare#2.5.0+20160803174538"
+  },
+  "globalDependencies": {
+    "node": "registry:dt/node#6.0.0+20161110151007"
   }
 }

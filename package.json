@@ -19,12 +19,12 @@
   },
   "homepage": "https://github.com/JumpeiArashi-blog/serverside-typescript-with-webpack#readme",
   "devDependencies": {
-    "ts-loader": "^0.8.2",
-    "typescript": "^1.8.9",
-    "typings": "^0.7.12",
-    "webpack": "^1.12.15"
+    "ts-loader": "^1.2.2",
+    "typescript": "^2.0.10",
+    "typings": "^2.0.0",
+    "webpack": "^1.13.3"
   },
   "dependencies": {
-    "nightmare": "^2.3.0"
+    "nightmare": "^2.8.1"
   }
 }
